@@ -74,7 +74,7 @@ To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
-You need [Docker](https://www.docker.com/get-started).
+You need [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/).
 
 ### Installation
 
