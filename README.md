@@ -64,6 +64,7 @@ This repo mirrors my progress on the course **[Build a Backend REST API with Pyt
 ### Built With
 - [Django](https://www.djangoproject.com/)
 - [Docker](https://www.docker.com/)
+- [Travis CI](https://travis-ci.org/)
 
 
 <!-- GETTING STARTED -->
