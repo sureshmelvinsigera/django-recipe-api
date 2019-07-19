@@ -114,8 +114,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
+Code is &copy; Mark Winterbottom as this repo follows the code in the [Udemy course][udemy]. Please contact [LondonAppDev](https://www.londonappdeveloper.com/) for further details.
 
 
 <!-- CONTACT -->
@@ -129,7 +128,7 @@ Project Link: [https://github.com/sophiabrandt/django-recipe-api](https://github
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-- [Build a Backend REST API with Python & Django - Advanced](https://www.udemy.com/django-python-advanced/)
+- [Build a Backend REST API with Python & Django - Advanced][udemy]
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 - [Django REST Framework](https://www.django-rest-framework.org/)
 
@@ -137,10 +136,11 @@ Project Link: [https://github.com/sophiabrandt/django-recipe-api](https://github
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[build-url]: #
+[build-shield]: https://travis-ci.org/sophiabrandt/django-recipe-api.svg?branch=master
+[build-url]: https://travis-ci.org/sophiabrandt/django-recipe-api
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [contributors-url]: https://github.com/sophiabrandt/django-recipe-api/graphs/contributors
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
 [product-screenshot]: https://raw.githubusercontent.com/sophiabrandt/django-recipe-api/master/screenshot.png
+[udemy]: https://www.udemy.com/django-python-advanced/<Paste>
