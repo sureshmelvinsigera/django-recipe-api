@@ -8,7 +8,6 @@
 -->
 [![Build Status][build-shield]][build-url]
 [![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -140,7 +139,6 @@ Project Link: [https://github.com/sophiabrandt/django-recipe-api](https://github
 [build-url]: https://travis-ci.org/sophiabrandt/django-recipe-api
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [contributors-url]: https://github.com/sophiabrandt/django-recipe-api/graphs/contributors
-[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
 [product-screenshot]: https://raw.githubusercontent.com/sophiabrandt/django-recipe-api/master/screenshot.png
 [udemy]: https://www.udemy.com/django-python-advanced/<Paste>
