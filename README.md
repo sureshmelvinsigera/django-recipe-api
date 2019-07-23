@@ -77,7 +77,8 @@ You need [Docker](https://www.docker.com/get-started) and [Docker Compose](https
 
 ### Installation
 
-1. Git clone this repository.
+Git clone this repository:
+
 ```sh
 git clone git@github.com:sophiabrandt/django-recipe-api.git
 ```
@@ -87,7 +88,31 @@ git clone git@github.com:sophiabrandt/django-recipe-api.git
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+1. To run the app:
 
+```sh
+docker-compose up -d
+```
+
+The API is available at `localhost:8000`.
+
+Available endpoints:
+
+- `admin/`
+- `api/user`
+- `api/recipe`
+
+2. Create admin:
+
+```sh
+docker-compose run --rm app sh -c "python manage.py createsuperuser"
+```
+
+3. Run tests:
+
+```sh
+docker-compose run --rm app sh -c "python manage.py test"
+```
 
 <!-- ROADMAP -->
 ## Roadmap
