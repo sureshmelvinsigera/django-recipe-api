@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+ALLOWED_HOSTS	app/app/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	app/app/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_USER_MODEL	app/app/settings.py	/^AUTH_USER_MODEL = "core.User"$/;"	v
+About The Project	README.md	/^## About The Project$/;"	s
+Acknowledgements	README.md	/^## Acknowledgements$/;"	s
+AdminSiteTests	app/core/tests/test_admin.py	/^class AdminSiteTests(TestCase):$/;"	c
+AuthTokenSerializer	app/user/serializers.py	/^class AuthTokenSerializer(serializers.Serializer):$/;"	c
+BASE_DIR	app/app/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BaseRecipeAttrViewSet	app/recipe/views.py	/^class BaseRecipeAttrViewSet($/;"	c
+BaseUserAdmin	app/core/admin.py	/^from django.contrib.auth.admin import UserAdmin as BaseUserAdmin$/;"	x
+Built With	README.md	/^### Built With$/;"	S
+CREATE_USER_URL	app/user/tests/test_user_api.py	/^CREATE_USER_URL = reverse("user:create")$/;"	v
+Command	app/core/management/commands/wait_for_db.py	/^class Command(BaseCommand):$/;"	c
+CommandTests	app/core/tests/test_commands.py	/^class CommandTests(TestCase):$/;"	c
+Contact	README.md	/^## Contact$/;"	s
+Contributing	README.md	/^## Contributing$/;"	s
+CoreConfig	app/core/apps.py	/^class CoreConfig(AppConfig):$/;"	c
+CreateTokenView	app/user/views.py	/^class CreateTokenView(ObtainAuthToken):$/;"	c
+CreateUserView	app/user/views.py	/^class CreateUserView(generics.CreateAPIView):$/;"	c
+DATABASES	app/app/settings.py	/^DATABASES = {$/;"	v
+DEBUG	app/app/settings.py	/^DEBUG = True$/;"	v
+Getting Started	README.md	/^## Getting Started$/;"	s
+INGREDIENTS_URL	app/recipe/tests/test_ingredients_api.py	/^INGREDIENTS_URL = reverse("recipe:ingredient-list")$/;"	v
+INSTALLED_APPS	app/app/settings.py	/^INSTALLED_APPS = [$/;"	v
+Ingredient	app/core/models.py	/^class Ingredient(models.Model):$/;"	c
+IngredientSerializer	app/recipe/serializers.py	/^class IngredientSerializer(serializers.ModelSerializer):$/;"	c
+IngredientViewSet	app/recipe/views.py	/^class IngredientViewSet(BaseRecipeAttrViewSet):$/;"	c
+Installation	README.md	/^### Installation$/;"	S
+LANGUAGE_CODE	app/app/settings.py	/^LANGUAGE_CODE = "en-us"$/;"	v
+License	README.md	/^## License$/;"	s
+ME_URL	app/user/tests/test_user_api.py	/^ME_URL = reverse("user:me")$/;"	v
+MIDDLEWARE	app/app/settings.py	/^MIDDLEWARE = [$/;"	v
+ManageUserView	app/user/views.py	/^class ManageUserView(generics.RetrieveUpdateAPIView):$/;"	c
+Meta	app/recipe/serializers.py	/^    class Meta:$/;"	c	class:IngredientSerializer
+Meta	app/recipe/serializers.py	/^    class Meta:$/;"	c	class:RecipeSerializer
+Meta	app/recipe/serializers.py	/^    class Meta:$/;"	c	class:TagSerializer
+Meta	app/user/serializers.py	/^    class Meta:$/;"	c	class:UserSerializer
+Migration	app/core/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	app/core/migrations/0002_tag.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	app/core/migrations/0003_ingredient.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	app/core/migrations/0004_recipe.py	/^class Migration(migrations.Migration):$/;"	c
+ModelTests	app/core/tests/test_models.py	/^class ModelTests(TestCase):$/;"	c
+Prerequisites	README.md	/^### Prerequisites$/;"	S
+PrivateIngredientsApiTests	app/recipe/tests/test_ingredients_api.py	/^class PrivateIngredientsApiTests(TestCase):$/;"	c
+PrivateRecipeApiTests	app/recipe/tests/test_recipe_api.py	/^class PrivateRecipeApiTests(TestCase):$/;"	c
+PrivateTagsApiTests	app/recipe/tests/test_tags_api.py	/^class PrivateTagsApiTests(TestCase):$/;"	c
+PrivateUserApiTests	app/user/tests/test_user_api.py	/^class PrivateUserApiTests(TestCase):$/;"	c
+PublicIngredientsApiTests	app/recipe/tests/test_ingredients_api.py	/^class PublicIngredientsApiTests(TestCase):$/;"	c
+PublicRecipeApiTests	app/recipe/tests/test_recipe_api.py	/^class PublicRecipeApiTests(TestCase):$/;"	c
+PublicTagsApiTests	app/recipe/tests/test_tags_api.py	/^class PublicTagsApiTests(TestCase):$/;"	c
+PublicUserApiTests	app/user/tests/test_user_api.py	/^class PublicUserApiTests(TestCase):$/;"	c
+RECIPES_URL	app/recipe/tests/test_recipe_api.py	/^RECIPES_URL = reverse("recipe:recipe-list")$/;"	v
+ROOT_URLCONF	app/app/settings.py	/^ROOT_URLCONF = "app.urls"$/;"	v
+Recipe	app/core/models.py	/^class Recipe(models.Model):$/;"	c
+RecipeConfig	app/recipe/apps.py	/^class RecipeConfig(AppConfig):$/;"	c
+RecipeDetailSerializer	app/recipe/serializers.py	/^class RecipeDetailSerializer(RecipeSerializer):$/;"	c
+RecipeSerializer	app/recipe/serializers.py	/^class RecipeSerializer(serializers.ModelSerializer):$/;"	c
+RecipeViewSet	app/recipe/views.py	/^class RecipeViewSet(viewsets.ModelViewSet):$/;"	c
+Roadmap	README.md	/^## Roadmap$/;"	s
+SECRET_KEY	app/app/settings.py	/^SECRET_KEY = "^14%k=d1s1ediwjf0_ky#%6kbouy1hg1mcu154eh)!f@^zu_(8"$/;"	v
+STATIC_URL	app/app/settings.py	/^STATIC_URL = "\/static\/"$/;"	v
+TAGS_URL	app/recipe/tests/test_tags_api.py	/^TAGS_URL = reverse("recipe:tag-list")$/;"	v
+TEMPLATES	app/app/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	app/app/settings.py	/^TIME_ZONE = "UTC"$/;"	v
+TOKEN_URL	app/user/tests/test_user_api.py	/^TOKEN_URL = reverse("user:token")$/;"	v
+Table of Contents	README.md	/^## Table of Contents$/;"	s
+Tag	app/core/models.py	/^class Tag(models.Model):$/;"	c
+TagSerializer	app/recipe/serializers.py	/^class TagSerializer(serializers.ModelSerializer):$/;"	c
+TagViewSet	app/recipe/views.py	/^class TagViewSet(BaseRecipeAttrViewSet):$/;"	c
+USERNAME_FIELD	app/core/models.py	/^    USERNAME_FIELD = "email"$/;"	v	class:User
+USE_I18N	app/app/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	app/app/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	app/app/settings.py	/^USE_TZ = True$/;"	v
+Usage	README.md	/^## Usage$/;"	s
+User	app/core/models.py	/^class User(AbstractBaseUser, PermissionsMixin):$/;"	c
+UserAdmin	app/core/admin.py	/^class UserAdmin(BaseUserAdmin):$/;"	c
+UserConfig	app/user/apps.py	/^class UserConfig(AppConfig):$/;"	c
+UserManager	app/core/models.py	/^class UserManager(BaseUserManager):$/;"	c
+UserSerializer	app/user/serializers.py	/^class UserSerializer(serializers.ModelSerializer):$/;"	c
+WSGI_APPLICATION	app/app/settings.py	/^WSGI_APPLICATION = "app.wsgi.application"$/;"	v
+_	app/core/admin.py	/^from django.utils.translation import gettext as _$/;"	x
+_	app/user/serializers.py	/^from django.utils.translation import gettext_lazy as _$/;"	x
+__str__	app/core/models.py	/^    def __str__(self):$/;"	m	class:Ingredient
+__str__	app/core/models.py	/^    def __str__(self):$/;"	m	class:Recipe
+__str__	app/core/models.py	/^    def __str__(self):$/;"	m	class:Tag
+add_fieldsets	app/core/admin.py	/^    add_fieldsets = ($/;"	v	class:UserAdmin
+app_name	app/recipe/urls.py	/^app_name = "recipe"$/;"	v
+app_name	app/user/urls.py	/^app_name = "user"$/;"	v
+application	app/app/wsgi.py	/^application = get_wsgi_application()$/;"	v
+authentication_classes	app/recipe/views.py	/^    authentication_classes = (TokenAuthentication,)$/;"	v	class:BaseRecipeAttrViewSet
+authentication_classes	app/recipe/views.py	/^    authentication_classes = (TokenAuthentication,)$/;"	v	class:RecipeViewSet
+authentication_classes	app/user/views.py	/^    authentication_classes = (authentication.TokenAuthentication,)$/;"	v	class:ManageUserView
+create	app/user/serializers.py	/^    def create(self, validated_data):$/;"	m	class:UserSerializer
+create_superuser	app/core/models.py	/^    def create_superuser(self, email, password):$/;"	m	class:UserManager
+create_user	app/core/models.py	/^    def create_user(self, email, password=None, **extra_fields):$/;"	m	class:UserManager
+create_user	app/user/tests/test_user_api.py	/^def create_user(**params):$/;"	f
+dependencies	app/core/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	app/core/migrations/0002_tag.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	app/core/migrations/0003_ingredient.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	app/core/migrations/0004_recipe.py	/^    dependencies = [$/;"	v	class:Migration
+detail_url	app/recipe/tests/test_recipe_api.py	/^def detail_url(recipe_id):$/;"	f
+email	app/core/models.py	/^    email = models.EmailField(max_length=255, unique=True)$/;"	v	class:User
+email	app/user/serializers.py	/^    email = serializers.CharField()$/;"	v	class:AuthTokenSerializer
+extra_kwargs	app/user/serializers.py	/^        extra_kwargs = {"password": {"write_only": True, "min_length": 5}}$/;"	v	class:UserSerializer.Meta
+fields	app/recipe/serializers.py	/^        fields = ("id", "name")$/;"	v	class:IngredientSerializer.Meta
+fields	app/recipe/serializers.py	/^        fields = ("id", "name")$/;"	v	class:TagSerializer.Meta
+fields	app/recipe/serializers.py	/^        fields = ("id", "title", "ingredients", "tags", "time_minutes", "price", "link")$/;"	v	class:RecipeSerializer.Meta
+fields	app/user/serializers.py	/^        fields = ("email", "password", "name")$/;"	v	class:UserSerializer.Meta
+fieldsets	app/core/admin.py	/^    fieldsets = ($/;"	v	class:UserAdmin
+get_object	app/user/views.py	/^    def get_object(self):$/;"	m	class:ManageUserView
+get_queryset	app/recipe/views.py	/^    def get_queryset(self):$/;"	m	class:BaseRecipeAttrViewSet
+get_queryset	app/recipe/views.py	/^    def get_queryset(self):$/;"	m	class:RecipeViewSet
+get_serializer_class	app/recipe/views.py	/^    def get_serializer_class(self):$/;"	m	class:RecipeViewSet
+handle	app/core/management/commands/wait_for_db.py	/^    def handle(self, *args, **options):$/;"	m	class:Command
+ingredients	app/core/models.py	/^    ingredients = models.ManyToManyField("Ingredient")$/;"	v	class:Recipe
+ingredients	app/recipe/serializers.py	/^    ingredients = IngredientSerializer(many=True, read_only=True)$/;"	v	class:RecipeDetailSerializer
+ingredients	app/recipe/serializers.py	/^    ingredients = serializers.PrimaryKeyRelatedField($/;"	v	class:RecipeSerializer
+initial	app/core/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+is_active	app/core/models.py	/^    is_active = models.BooleanField(default=True)$/;"	v	class:User
+is_staff	app/core/models.py	/^    is_staff = models.BooleanField(default=False)$/;"	v	class:User
+link	app/core/models.py	/^    link = models.CharField(max_length=255, blank=True)$/;"	v	class:Recipe
+list_display	app/core/admin.py	/^    list_display = ["email", "name"]$/;"	v	class:UserAdmin
+main	app/manage.py	/^def main():$/;"	f
+model	app/recipe/serializers.py	/^        model = Ingredient$/;"	v	class:IngredientSerializer.Meta
+model	app/recipe/serializers.py	/^        model = Recipe$/;"	v	class:RecipeSerializer.Meta
+model	app/recipe/serializers.py	/^        model = Tag$/;"	v	class:TagSerializer.Meta
+model	app/user/serializers.py	/^        model = get_user_model()$/;"	v	class:UserSerializer.Meta
+name	app/core/apps.py	/^    name = 'core'$/;"	v	class:CoreConfig
+name	app/core/models.py	/^    name = models.CharField(max_length=255)$/;"	v	class:Ingredient
+name	app/core/models.py	/^    name = models.CharField(max_length=255)$/;"	v	class:Tag
+name	app/core/models.py	/^    name = models.CharField(max_length=255)$/;"	v	class:User
+name	app/recipe/apps.py	/^    name = 'recipe'$/;"	v	class:RecipeConfig
+name	app/user/apps.py	/^    name = 'user'$/;"	v	class:UserConfig
+objects	app/core/models.py	/^    objects = UserManager()$/;"	v	class:User
+operations	app/core/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	app/core/migrations/0002_tag.py	/^    operations = [$/;"	v	class:Migration
+operations	app/core/migrations/0003_ingredient.py	/^    operations = [$/;"	v	class:Migration
+operations	app/core/migrations/0004_recipe.py	/^    operations = [$/;"	v	class:Migration
+ordering	app/core/admin.py	/^    ordering = ["id"]$/;"	v	class:UserAdmin
+password	app/user/serializers.py	/^    password = serializers.CharField($/;"	v	class:AuthTokenSerializer
+perform_create	app/recipe/views.py	/^    def perform_create(self, serializer):$/;"	m	class:BaseRecipeAttrViewSet
+perform_create	app/recipe/views.py	/^    def perform_create(self, serializer):$/;"	m	class:RecipeViewSet
+permission_classes	app/recipe/views.py	/^    permission_classes = (IsAuthenticated,)$/;"	v	class:BaseRecipeAttrViewSet
+permission_classes	app/recipe/views.py	/^    permission_classes = (IsAuthenticated,)$/;"	v	class:RecipeViewSet
+permission_classes	app/user/views.py	/^    permission_classes = (permissions.IsAuthenticated,)$/;"	v	class:ManageUserView
+price	app/core/models.py	/^    price = models.DecimalField(max_digits=5, decimal_places=2)$/;"	v	class:Recipe
+queryset	app/recipe/views.py	/^    queryset = Ingredient.objects.all()$/;"	v	class:IngredientViewSet
+queryset	app/recipe/views.py	/^    queryset = Recipe.objects.all()$/;"	v	class:RecipeViewSet
+queryset	app/recipe/views.py	/^    queryset = Tag.objects.all()$/;"	v	class:TagViewSet
+read_only_fields	app/recipe/serializers.py	/^        read_only_fields = ("id",)$/;"	v	class:IngredientSerializer.Meta
+read_only_fields	app/recipe/serializers.py	/^        read_only_fields = ("id",)$/;"	v	class:RecipeSerializer.Meta
+read_only_fields	app/recipe/serializers.py	/^        read_only_fields = ("id",)$/;"	v	class:TagSerializer.Meta
+renderer_classes	app/user/views.py	/^    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES$/;"	v	class:CreateTokenView
+router	app/recipe/urls.py	/^router = DefaultRouter()$/;"	v
+sample_ingredient	app/recipe/tests/test_recipe_api.py	/^def sample_ingredient(user, name="Cinnamon"):$/;"	f
+sample_recipe	app/recipe/tests/test_recipe_api.py	/^def sample_recipe(user, **params):$/;"	f
+sample_tag	app/recipe/tests/test_recipe_api.py	/^def sample_tag(user, name="Main course"):$/;"	f
+sample_user	app/core/tests/test_models.py	/^def sample_user(email="test@test.com", password="password1234"):$/;"	f
+serializer_class	app/recipe/views.py	/^    serializer_class = serializers.IngredientSerializer$/;"	v	class:IngredientViewSet
+serializer_class	app/recipe/views.py	/^    serializer_class = serializers.RecipeSerializer$/;"	v	class:RecipeViewSet
+serializer_class	app/recipe/views.py	/^    serializer_class = serializers.TagSerializer$/;"	v	class:TagViewSet
+serializer_class	app/user/views.py	/^    serializer_class = AuthTokenSerializer$/;"	v	class:CreateTokenView
+serializer_class	app/user/views.py	/^    serializer_class = UserSerializer$/;"	v	class:CreateUserView
+serializer_class	app/user/views.py	/^    serializer_class = UserSerializer$/;"	v	class:ManageUserView
+setUp	app/core/tests/test_admin.py	/^    def setUp(self):$/;"	m	class:AdminSiteTests
+setUp	app/recipe/tests/test_ingredients_api.py	/^    def setUp(self):$/;"	m	class:PrivateIngredientsApiTests
+setUp	app/recipe/tests/test_ingredients_api.py	/^    def setUp(self):$/;"	m	class:PublicIngredientsApiTests
+setUp	app/recipe/tests/test_recipe_api.py	/^    def setUp(self):$/;"	m	class:PrivateRecipeApiTests
+setUp	app/recipe/tests/test_recipe_api.py	/^    def setUp(self):$/;"	m	class:PublicRecipeApiTests
+setUp	app/recipe/tests/test_tags_api.py	/^    def setUp(self):$/;"	m	class:PrivateTagsApiTests
+setUp	app/recipe/tests/test_tags_api.py	/^    def setUp(self):$/;"	m	class:PublicTagsApiTests
+setUp	app/user/tests/test_user_api.py	/^    def setUp(self):$/;"	m	class:PrivateUserApiTests
+setUp	app/user/tests/test_user_api.py	/^    def setUp(self):$/;"	m	class:PublicUserApiTests
+tags	app/core/models.py	/^    tags = models.ManyToManyField("Tag")$/;"	v	class:Recipe
+tags	app/recipe/serializers.py	/^    tags = TagSerializer(many=True, read_only=True)$/;"	v	class:RecipeDetailSerializer
+tags	app/recipe/serializers.py	/^    tags = serializers.PrimaryKeyRelatedField(many=True, queryset=Tag.objects.all())$/;"	v	class:RecipeSerializer
+test_auth_required	app/recipe/tests/test_recipe_api.py	/^    def test_auth_required(self):$/;"	m	class:PublicRecipeApiTests
+test_create_basic_recipe	app/recipe/tests/test_recipe_api.py	/^    def test_create_basic_recipe(self):$/;"	m	class:PrivateRecipeApiTests
+test_create_ingredient_invalid	app/recipe/tests/test_ingredients_api.py	/^    def test_create_ingredient_invalid(self):$/;"	m	class:PrivateIngredientsApiTests
+test_create_ingredient_successful	app/recipe/tests/test_ingredients_api.py	/^    def test_create_ingredient_successful(self):$/;"	m	class:PrivateIngredientsApiTests
+test_create_new_superuser	app/core/tests/test_models.py	/^    def test_create_new_superuser(self):$/;"	m	class:ModelTests
+test_create_recipe_with_ingredients	app/recipe/tests/test_recipe_api.py	/^    def test_create_recipe_with_ingredients(self):$/;"	m	class:PrivateRecipeApiTests
+test_create_recipe_with_tags	app/recipe/tests/test_recipe_api.py	/^    def test_create_recipe_with_tags(self):$/;"	m	class:PrivateRecipeApiTests
+test_create_tag_invalid	app/recipe/tests/test_tags_api.py	/^    def test_create_tag_invalid(self):$/;"	m	class:PrivateTagsApiTests
+test_create_tag_successful	app/recipe/tests/test_tags_api.py	/^    def test_create_tag_successful(self):$/;"	m	class:PrivateTagsApiTests
+test_create_token_for_user	app/user/tests/test_user_api.py	/^    def test_create_token_for_user(self):$/;"	m	class:PublicUserApiTests
+test_create_token_invalid_credentials	app/user/tests/test_user_api.py	/^    def test_create_token_invalid_credentials(self):$/;"	m	class:PublicUserApiTests
+test_create_token_missing_field	app/user/tests/test_user_api.py	/^    def test_create_token_missing_field(self):$/;"	m	class:PublicUserApiTests
+test_create_token_no_user	app/user/tests/test_user_api.py	/^    def test_create_token_no_user(self):$/;"	m	class:PublicUserApiTests
+test_create_user_page	app/core/tests/test_admin.py	/^    def test_create_user_page(self):$/;"	m	class:AdminSiteTests
+test_create_user_with_email_successfully	app/core/tests/test_models.py	/^    def test_create_user_with_email_successfully(self):$/;"	m	class:ModelTests
+test_create_valid_user_success	app/user/tests/test_user_api.py	/^    def test_create_valid_user_success(self):$/;"	m	class:PublicUserApiTests
+test_ingredient_str	app/core/tests/test_models.py	/^    def test_ingredient_str(self):$/;"	m	class:ModelTests
+test_ingredients_limited_to_user	app/recipe/tests/test_ingredients_api.py	/^    def test_ingredients_limited_to_user(self):$/;"	m	class:PrivateIngredientsApiTests
+test_login_required	app/recipe/tests/test_ingredients_api.py	/^    def test_login_required(self):$/;"	m	class:PublicIngredientsApiTests
+test_login_required	app/recipe/tests/test_tags_api.py	/^    def test_login_required(self):$/;"	m	class:PublicTagsApiTests
+test_new_user_email_normalized	app/core/tests/test_models.py	/^    def test_new_user_email_normalized(self):$/;"	m	class:ModelTests
+test_new_user_invalid_email	app/core/tests/test_models.py	/^    def test_new_user_invalid_email(self):$/;"	m	class:ModelTests
+test_partial_update_recipe	app/recipe/tests/test_recipe_api.py	/^    def test_partial_update_recipe(self):$/;"	m	class:PrivateRecipeApiTests
+test_password_too_short	app/user/tests/test_user_api.py	/^    def test_password_too_short(self):$/;"	m	class:PublicUserApiTests
+test_post_me_not_allowed	app/user/tests/test_user_api.py	/^    def test_post_me_not_allowed(self):$/;"	m	class:PrivateUserApiTests
+test_recipe_str	app/core/tests/test_models.py	/^    def test_recipe_str(self):$/;"	m	class:ModelTests
+test_recipes_limited_to_user	app/recipe/tests/test_recipe_api.py	/^    def test_recipes_limited_to_user(self):$/;"	m	class:PrivateRecipeApiTests
+test_retrieve_ingredients	app/recipe/tests/test_ingredients_api.py	/^    def test_retrieve_ingredients(self):$/;"	m	class:PrivateIngredientsApiTests
+test_retrieve_profile_success	app/user/tests/test_user_api.py	/^    def test_retrieve_profile_success(self):$/;"	m	class:PrivateUserApiTests
+test_retrieve_recipes	app/recipe/tests/test_recipe_api.py	/^    def test_retrieve_recipes(self):$/;"	m	class:PrivateRecipeApiTests
+test_retrieve_tags	app/recipe/tests/test_tags_api.py	/^    def test_retrieve_tags(self):$/;"	m	class:PrivateTagsApiTests
+test_retrieve_user_unauthorized	app/user/tests/test_user_api.py	/^    def test_retrieve_user_unauthorized(self):$/;"	m	class:PublicUserApiTests
+test_tag_str	app/core/tests/test_models.py	/^    def test_tag_str(self):$/;"	m	class:ModelTests
+test_tags_limited_to_user	app/recipe/tests/test_tags_api.py	/^    def test_tags_limited_to_user(self):$/;"	m	class:PrivateTagsApiTests
+test_update_user_profile	app/user/tests/test_user_api.py	/^    def test_update_user_profile(self):$/;"	m	class:PrivateUserApiTests
+test_user_exists	app/user/tests/test_user_api.py	/^    def test_user_exists(self):$/;"	m	class:PublicUserApiTests
+test_user_page_change	app/core/tests/test_admin.py	/^    def test_user_page_change(self):$/;"	m	class:AdminSiteTests
+test_users_listed	app/core/tests/test_admin.py	/^    def test_users_listed(self):$/;"	m	class:AdminSiteTests
+test_view_recipe_detail	app/recipe/tests/test_recipe_api.py	/^    def test_view_recipe_detail(self):$/;"	m	class:PrivateRecipeApiTests
+test_wait_for_db	app/core/tests/test_commands.py	/^    def test_wait_for_db(self, ts):$/;"	m	class:CommandTests
+test_wait_for_db_ready	app/core/tests/test_commands.py	/^    def test_wait_for_db_ready(self):$/;"	m	class:CommandTests
+time_minutes	app/core/models.py	/^    time_minutes = models.IntegerField()$/;"	v	class:Recipe
+title	app/core/models.py	/^    title = models.CharField(max_length=255)$/;"	v	class:Recipe
+update	app/user/serializers.py	/^    def update(self, instance, validated_data):$/;"	m	class:UserSerializer
+urlpatterns	app/app/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	app/recipe/urls.py	/^urlpatterns = [path("", include(router.urls))]$/;"	v
+urlpatterns	app/user/urls.py	/^urlpatterns = [$/;"	v
+user	app/core/models.py	/^    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)$/;"	v	class:Ingredient
+user	app/core/models.py	/^    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)$/;"	v	class:Recipe
+user	app/core/models.py	/^    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)$/;"	v	class:Tag
+validate	app/user/serializers.py	/^    def validate(self, attrs):$/;"	m	class:AuthTokenSerializer
