@@ -166,4 +166,4 @@ Project Link: [https://github.com/sophiabrandt/django-recipe-api](https://github
 [contributors-url]: https://github.com/sophiabrandt/django-recipe-api/graphs/contributors
 [license-url]: https://choosealicense.com/licenses/mit
 [product-screenshot]: https://raw.githubusercontent.com/sophiabrandt/django-recipe-api/master/screenshot.png
-[udemy]: https://www.udemy.com/django-python-advanced/<Paste>
+[udemy]: https://www.udemy.com/course/django-python-advanced/
