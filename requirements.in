@@ -1,0 +1,7 @@
+Django==2.2.8
+djangorestframework==3.10.3
+psycopg2==2.8.4
+Pillow==6.2.1
+
+flake8==3.7.9
+black==19.10b0
